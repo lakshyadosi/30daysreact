@@ -1,0 +1,13 @@
+1. What is CDN and cross-orign attribute ?
+Ans: Once upon a time, in a small town called Webville, there was a young builder named Dev. Dev wanted to build a beautiful house (website) using special magical bricks called React.
+Now, Dev could make these bricks himself, but it would take a lot of time and energy. Luckily, there was a friendly giant named CDN who lived on the edge of town. CDN had many hands and could reach all parts of Webville quickly.
+CDN offered to help Dev by storing the magical React bricks and delivering them super fast whenever Dev needed them. Dev was thrilled!
+But the town had a rule: you could only use materials from your own yard. The town's sheriff (the web browser) was very strict about this.
+So, Dev went to the town mayor and got a special permit (the 'crossorigin' attribute). This permit said, "It's okay for Dev to use the magical bricks from CDN."
+Dev showed this permit to the sheriff every time he used CDN's magical bricks. The sheriff would nod and say, "Alright, but be careful with those bricks. If anything goes wrong, make sure to tell me right away!"
+Thanks to CDN's help and the special permit, Dev could build his house much faster. And if any of the magical bricks ever caused problems, Dev would know exactly what went wrong and how to fix it.
+From that day on, Dev and many other builders in Webville used CDN's help and the special permit to build amazing houses, making Webville the most beautiful town in all the land!
+And that's how CDNs and the 'crossorigin' attribute help web developers build wonderful websites with React!
+
+
+CDNs quickly deliver React from global servers, while 'crossorigin' ensures safe, error-transparent loading across different websites.
