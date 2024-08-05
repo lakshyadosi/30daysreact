@@ -1,0 +1,23 @@
+Here's a simple example to illustrate a problem that can occur when you don't use package-lock.json:
+Scenario: You're building a web app using Express.js
+
+You start your project and install Express:
+Copynpm install express
+Your package.json shows: "express": "^4.17.1"
+You develop your app and it works great on your machine.
+A month later, your teammate clones the project and runs:
+Copynpm install
+
+Express releases a new minor version (e.g., 4.18.0) with some changes.
+Your teammate's install gets this newer version due to the "^" in package.json.
+Suddenly, a feature in your app doesn't work on your teammate's machine due to a small breaking change in the new Express version.
+You both spend hours debugging, only to realize it's due to different Express versions.
+
+If you had a package-lock.json:
+
+It would have locked the exact version of Express.
+Your teammate would get the exact same version you used.
+The app would work identically on both machines.
+You'd avoid wasting time on version-related bugs.
+
+This example shows how package-lock.json prevents inconsistencies and saves development time, especially in team environments.

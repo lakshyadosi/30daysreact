@@ -1,0 +1,34 @@
+{
+  "name": "30daysreact",
+  "version": "1.0.0",
+  "description": "This is react course",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakshyadosi/30daysreact.git"
+  },
+  "keywords": [],
+  "author": "laskshya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lakshyadosi/30daysreact/issues"
+  },
+  "homepage": "https://github.com/lakshyadosi/30daysreact#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+  
+}

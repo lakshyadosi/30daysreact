@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 /*
 1. Create h1 tag
 
@@ -21,4 +23,4 @@ const child = React.createElement("div",{id: "child"}, subChild);
 const parent = React.createElement("div",{id: "parent"}, child); // its an object
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent); // converts object into html
+root.render(parent); // converts object into html 
